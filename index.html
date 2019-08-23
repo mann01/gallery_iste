@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3d</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="swiper.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="heading">
+		<h1 style="font-size: 3.5vw;">Gallery</h1>
+	</div>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="imgBx" >
+         			<img src="versionbeta.jpg" width="300px" height="320px;">
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q1.html"> Version Beta</a><br><span>Hackathon</span></h3>
+      		</div>
+      	</div>
+      <div class="swiper-slide">
+      <div class="imgBx" >
+
+      	 		<img src="chimera.png" width="300px" height="310px;">
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q2.html"> Chimera</a><br><span>Quizzing Fest</span></h3>
+      		</div>
+      	</div>
+      <div class="swiper-slide">
+      <div class="imgBx">
+
+      		<img src="codathon.jpg" width="300px" height="310px;"></a>
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q3.html"> Codathon</a><br><span>Coding Test</span></h3>
+      		</div>
+      	</div>
+      <div class="swiper-slide">
+      <div class="imgBx" >
+
+        	<img src="meg.jpg" width="300px" height="310px;">
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q4.html"> Megatheopuz</a><br><span>Online Cryptic Hunt</span></h3>
+      		</div>
+      	</div>
+      	<div class="swiper-slide">
+      <div class="imgBx" >
+      		<img src="anu.jpg" width="300px" height="310px;">
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q5.html"> Anubhuti</a><br><span>Talk Show</span></h3>
+      		</div>
+      	</div>
+      
+      <div class="swiper-slide">
+      <div class="imgBx" >
+      		<img src="pro.jpg" width="300px" height="310px;">
+      		</div>
+      		<div class="details">
+      		<h3><a style="text-decoration:none; color: black;" href="q6.html"> Pro Nights</a><br><span>After Party Night</span></h3>
+      		</div>
+      	</div>
+      
+      </div>
+      
+    
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<script src="swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+</body>
+</html>
